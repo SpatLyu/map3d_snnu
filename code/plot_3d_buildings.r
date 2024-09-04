@@ -12,8 +12,8 @@ maplibre(
   center = c(unname(st_coordinates(st_centroid(snnu1))[1,1]), 
              unname(st_coordinates(st_centroid(snnu1))[1,2])),
   zoom = 16,
-  pitch = 90,
-  bearing = -45,
+  pitch = 60,
+  bearing = -60,
   bounds = snnu1
 ) |>
   add_vector_source(
@@ -50,8 +50,8 @@ maplibre(
   center = c(unname(st_coordinates(st_centroid(snnu2))[1,1]), 
              unname(st_coordinates(st_centroid(snnu2))[1,2])),
   zoom = 16,
-  pitch = 90,
-  bearing = -45,
+  pitch = 60,
+  bearing = -60,
   bounds = snnu2
 ) |>
   add_vector_source(
