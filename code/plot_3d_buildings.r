@@ -11,9 +11,9 @@ maplibre(
   style = maptiler_style("basic"),
   center = c(unname(st_coordinates(st_centroid(snnu1))[1,1]), 
              unname(st_coordinates(st_centroid(snnu1))[1,2])),
-  zoom = 15.5,
+  zoom = 16,
   pitch = 90,
-  bearing = -15,
+  bearing = -45,
   bounds = snnu1
 ) |>
   add_vector_source(
